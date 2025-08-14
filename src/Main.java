@@ -5,8 +5,7 @@ public class Main {
         byte age = 14;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
         }
         //Задача 2
@@ -14,8 +13,7 @@ public class Main {
         byte temperature = 8;
         if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку.");
-        }
-        if (temperature > 5) {
+        } else {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки.");
         }
         //Задача 3
@@ -23,8 +21,7 @@ public class Main {
         byte speed = 55;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", то придется платить штраф.");
-        }
-        if (speed < 60) {
+        } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно.");
         }
         //Задача 4
